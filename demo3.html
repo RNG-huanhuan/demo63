@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::after{
+            content:counter(count);
+            color: #090;
+        }
+        p{
+            counter-increment:count;
+        }
+    </style>
+</head>
+<body>
+    <p>项目</p>
+    <p>项目</p>
+    <p>项目</p>
+    <p>项目</p>
+    <p>项目</p>
+</body>
+</html>

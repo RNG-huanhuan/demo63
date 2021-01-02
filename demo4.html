@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::before{
+           content: "第"counter(count)"章 "; 
+           color: #078ebf;
+           font-weight: bolder;
+        }
+        p{
+            counter-increment: count;
+        }
+    </style>
+</head>
+<body>
+    <p>photostop工作原理</p>
+    <p>photpstop文件操作</p>
+    <p>photostop颜色模式</p>
+    <p>photostop调色</p>
+    <p>photostop选区</p>
+    <p>photostop画笔</p>
+</body>
+</html>
